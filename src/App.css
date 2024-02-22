@@ -57,7 +57,7 @@ code {
       top: 0; /* Stick it to the top */
       left: 0;
       width: 100%; /* Full width */
-      background-color: #918bb6; /* Dark background color */
+      background-color: #6495ED; /* Dark background color */
       padding: 10px 0; /* Add some padding */
       text-align: center; /* Center align the content */
       z-index: 1000; /* Ensure it's on top of other elements */
@@ -72,8 +72,8 @@ code {
 
   /* Additional styling for the body */
   body {
-      color: white; /* Text color */
-      background-color: #1d2630; /* Body background color */
+      color: rgb(16, 15, 15); /* Text color */
+      background-color: #e0e7f2; /* Body background color */
       margin-top: 50px; /* Add margin to the top to avoid content overlap with fixed header */
   }
   .side-panel {
@@ -82,8 +82,8 @@ code {
     left: 0;
     height: 100%;
     width: 250px; /* Adjust as needed */
-    background-color: #343a40;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #0f0e0e;
     padding: 20px;
     z-index: 1000;
     overflow-y: auto; /* Enable scrolling if content exceeds panel height */
@@ -92,12 +92,15 @@ code {
 .btn-delete-all {
     width: 100%;
 }
+.btn-primary {
+  width: 100%;
+}
 #mars-image {
   max-width: 200px; /* Adjust the width as needed */
   height: auto;
 }
 .header {
-  background-color: #3e73b0; /* Your desired header color */
+  background-color: #003893; /* Your desired header color */
   color: white;
   padding: 20px;
   position: fixed;
